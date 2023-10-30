@@ -63,6 +63,10 @@ ul {
   list-style: none;
 }
 
+.points{
+  list-style-type: circle;
+}
+
 a {
   text-decoration: none;
 }
@@ -138,6 +142,15 @@ img {
     background-color: var(--second-color);
     transition: .5s;
   }
+}
+
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
 }
 
 .nav__item {
@@ -267,11 +280,13 @@ img {
 
 .about__img {
   justify-self: center;
+ 
 }
 
 .about__img img {
   width: 200px;
   border-radius: .5rem;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); 
 }
 
 /* ===== SKILLS =====*/
@@ -339,6 +354,7 @@ img {
 
 .skills__img {
   border-radius: .5rem;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); 
 }
 
 /* ===== WORK =====*/
@@ -347,7 +363,7 @@ img {
 }
 
 .work__img {
-  box-shadow: 0px 4px 25px rgba(14, 36, 49, 0.15);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); 
   border-radius: .5rem;
   overflow: hidden;
 }
