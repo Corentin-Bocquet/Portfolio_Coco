@@ -289,6 +289,10 @@ img {
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); 
 }
 
+.about__text{
+  font-size: 14px;
+}
+
 .img_top{
   margin-top: 60px;
   margin-bottom: 40px;
