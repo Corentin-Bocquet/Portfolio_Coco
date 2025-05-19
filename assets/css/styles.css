@@ -63,6 +63,11 @@ ul {
   list-style: none;
 }
 
+li{
+  font-size: 13.5px;
+  margin-top: 5px;
+}
+
 .points{
   list-style-type: circle;
 }
@@ -250,7 +255,7 @@ img {
 }
 
 .home__blob-img {
-  width: 500px;
+  width: 400px;
 }
 
 /*BUTTONS*/
